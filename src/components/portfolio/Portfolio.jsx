@@ -2,8 +2,8 @@ import "./portfolio.css";
 
 import IMG1 from "../../assets/Educational Website.png";
 import IMG2 from "../../assets/reservation-form.png";
-import IMG3 from "../../assets/Startup Agency Project.jpg";
-import IMG4 from "../../assets/shopify.jpg";
+import IMG3 from "../../assets/shopify.jpg";
+import IMG4 from "../../assets/fh-huquq.png";
 import IMG5 from "../../assets/Jokes Project.jpg";
 import IMG6 from "../../assets/Project4.jpg";
 import React from "react";
