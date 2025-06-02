@@ -3,7 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/Educational Website.png";
 import IMG2 from "../../assets/reservation-form.png";
 import IMG3 from "../../assets/Startup Agency Project.jpg";
-import IMG4 from "../../assets/fh-huquq.png";
+import IMG4 from "../../assets/shopify.jpg";
 import IMG5 from "../../assets/Jokes Project.jpg";
 import IMG6 from "../../assets/Project4.jpg";
 import React from "react";
@@ -40,17 +40,18 @@ const Portfolio = () => {
       link: "https://spam-classification-ni69.onrender.com/",
       github: "https://github.com/Aflaaaton/SpamClassification",
     },
-  ];
-  //   {
-  //     id: 4,
-  //     title: "Startup Landing Page",
-  //     img: IMG3,
-  //     description:
-  //       "A dedicated, standalone web page built for specific campaigns and target audiences.",
-  //     technologies: "Html | CSS | JavaScript | Next Js",
-  //     link: "https://alpha-agency-project.vercel.app/",
-  //     github: "https://github.com/Rasif-Taghizada/Alpha-Agency-Project",
-  //   },
+  
+    {
+      id: 4,
+      title: "Shopify Analaysis",
+      img: IMG3,
+      description:
+        "PowerBI based Shopify sales and customer funnel analysis",
+      technologies: "PowerBI",
+      // link: "https://alpha-agency-project.vercel.app/",
+      // github: "https://github.com/Rasif-Taghizada/Alpha-Agency-Project",
+    },
+    ];
   //   {
   //     id: 5,
   //     title: "Jokes Project with Typescript",
