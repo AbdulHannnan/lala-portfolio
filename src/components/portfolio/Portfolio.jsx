@@ -93,7 +93,7 @@ const Portfolio = () => {
      {
       id: 8,
       title: "SMA-CrossOver Strategy on PEPE Data",
-      category: "Phton(Quant/Fintech)",
+      category: "Python(Quant/Fintech)",
       img: IMG8,
       description:
         "As the name suggests, this project implements a simple SMA-CrossOver Strategy on hourly PEPE dataset to find out whether an SMA strategy is effective in the short run of time.",
@@ -104,7 +104,7 @@ const Portfolio = () => {
      {
       id: 9,
       title: "Linear Regression on EURUSD Dataset",
-      category: "Phton(Quant/Fintech)",
+      category: "Python(Quant/Fintech)",
       img: IMG9,
       description:
         "This Project uses Machine Learning approach to follow and predict EURUSD prices for a  short period of time to validate the predictive capabilities of Linear Regression on complex forex dataset.",
@@ -116,7 +116,7 @@ const Portfolio = () => {
 
   const [filter, setFilter] = useState("All");
 
-  const categories = ["All", "ML", "Phton(Quant/Fintech)", "PowerBI" , "SQL"];
+  const categories = ["All", "ML", "Python(Quant/Fintech)", "PowerBI" , "SQL"];
 
   const filteredProjects =
     filter === "All"
