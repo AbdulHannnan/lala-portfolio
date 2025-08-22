@@ -5,13 +5,18 @@ import IMG1 from "../../assets/Educational Website.png";
 import IMG2 from "../../assets/reservation-form.png";
 import IMG3 from "../../assets/shopify.jpg";
 import IMG4 from "../../assets/fh-huquq.png";
+import IMG5 from "../../assets/candy.jpg"
+import IMG6 from "../../assets/fibernet.jpg"
+import IMG7 from "../../assets/hospital.jpg"
+import IMG8 from "../../assets/SMA.jpg"
+import IMG9 from "../../assets/regression.jpg"
 
 const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
       title: "Olympic Analysis",
-      category: "Streamlit",
+      category: "ML",
       img: IMG1,
       description:
         "Uncovering insights about the history of Olympics accomplishments Sports-wise, Country-wise and Players-wise.",
@@ -49,12 +54,69 @@ const Portfolio = () => {
       description:
         "PowerBI based Shopify sales and customer funnel analysis.",
       technologies: "PowerBI",
+      link: " ",
+      github: " https://www.linkedin.com/posts/muhammad-zeeshan-9a9298261_shopify-sales-and-customer-funnel-report-activity-7340798505411620865-HP8Z?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBKvJEBqD24Lfc-tMuyC9ligHInXKDMAOM ",
+    },
+    {
+      id: 5,
+      title: "Candy Store Sales Repor",
+      category: "PowerBI",
+      img: IMG5,
+      description:
+        "This project uncovers total sales, top 5 products, sales by month and comperative analaysis of target sales etc.",
+      technologies: "PowerBI",
+      link: " ",
+      github: "https://www.linkedin.com/posts/muhammad-zeeshan-9a9298261_data-atomcamp-pakistan-activity-7345161203058388993-8mw3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBKvJEBqD24Lfc-tMuyC9ligHInXKDMAOM ",
+    },
+     {
+      id: 6,
+      title: "Fibernet customer Churn",
+      category: "SQL",
+      img: IMG6,
+      description:
+        "This project undertake SQL for data analysis approch to find customer churn from a leading Pakistani telecom service provider.",
+      technologies: "SQL",
+      link: " ",
+      github: "https://www.linkedin.com/posts/muhammad-zeeshan-9a9298261_fibernet-customer-churn-case-study-activity-7348694785425059840-UU0G?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBKvJEBqD24Lfc-tMuyC9ligHInXKDMAOM ",
+    },
+      {
+      id: 7,
+      title: "Hospital Data Analaysis",
+      category: "SQL",
+      img: IMG7,
+      description:
+        "This Project undertakes an exploratory data analysis approach in mySQL for healthcare domain data where I track patient record like admit_rate, Diagnosis_clusters and other for predictive modeling of Customer admission to the hospital.",
+      technologies: "SQL",
+      link: " ",
+      github: "https://www.linkedin.com/posts/muhammad-zeeshan-9a9298261_fibernet-customer-churn-case-study-activity-7348694785425059840-UU0G?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBKvJEBqD24Lfc-tMuyC9ligHInXKDMAOM ",
+    },
+     {
+      id: 8,
+      title: "SMA-CrossOver Strategy on PEPE Data",
+      category: "Phton(Quant/Fintech)",
+      img: IMG8,
+      description:
+        "As the name suggests, this project implements a simple SMA-CrossOver Strategy on hourly PEPE dataset to find out whether an SMA strategy is effective in the short run of time.",
+      technologies: "Phyton",
+      link: " ",
+      github: "https://www.linkedin.com/posts/muhammad-zeeshan-9a9298261_data-trading-quant-activity-7356638633891610625-FxKi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBKvJEBqD24Lfc-tMuyC9ligHInXKDMAOM ",
+    },
+     {
+      id: 9,
+      title: "Linear Regression on EURUSD Dataset",
+      category: "Phton(Quant/Fintech)",
+      img: IMG9,
+      description:
+        "This Project uses Machine Learning approach to follow and predict EURUSD prices for a  short period of time to validate the predictive capabilities of Linear Regression on complex forex dataset.",
+      technologies: "Phyton",
+      link: " ",
+      github: "https://www.linkedin.com/posts/muhammad-zeeshan-9a9298261_data-analytics-regression-activity-7363444253684916224-44kJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBKvJEBqD24Lfc-tMuyC9ligHInXKDMAOM ",
     },
   ];
 
   const [filter, setFilter] = useState("All");
 
-  const categories = ["All", "ML", "Streamlit", "PowerBI"];
+  const categories = ["All", "ML", "Phton(Quant/Fintech)", "PowerBI" , "SQL"];
 
   const filteredProjects =
     filter === "All"
