@@ -88,7 +88,7 @@ const Portfolio = () => {
         "This Project undertakes an exploratory data analysis approach in mySQL for healthcare domain data where I track patient record like admit_rate, Diagnosis_clusters and other for predictive modeling of Customer admission to the hospital.",
       technologies: "SQL",
       link: " ",
-      github: "https://www.linkedin.com/posts/muhammad-zeeshan-9a9298261_fibernet-customer-churn-case-study-activity-7348694785425059840-UU0G?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBKvJEBqD24Lfc-tMuyC9ligHInXKDMAOM ",
+      github: "https://www.linkedin.com/posts/muhammad-zeeshan-9a9298261_hospital-data-analysis-using-mysql-activity-7351217435896668160-_M6L?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBKvJEBqD24Lfc-tMuyC9ligHInXKDMAOM ",
     },
      {
       id: 8,
